@@ -25,11 +25,11 @@ G = 1;       % Constante gravitacional universal unitaria
 % vx2 = 0.0; vy2 = 0.0;       x2 = 0.5;  y2 = 0;
 
 %% Caso especial #1 tres cuerpos 
-% m0 = 4.0; m1 = 4.0; m2 = 5.0;
-% 
-% vx0 = 0.0; vy0 = 0.0;       x0 = 1.0;  y0 = -1.0;
-% vx1 = 0.0; vy1 = 0.0;       x1 = -0.5; y1 = 1.0;
-% vx2 = 0.0; vy2 = 0.0;       x2 = -2.0; y2 = -1.2;
+m0 = 4.0; m1 = 4.0; m2 = 5.0;
+ 
+vx0 = 0.0; vy0 = 0.0;       x0 = 1.0;  y0 = -1.0;
+vx1 = 0.0; vy1 = 0.0;       x1 = -0.5; y1 = 1.0;
+vx2 = 0.0; vy2 = 0.0;       x2 = -2.0; y2 = -1.2;
 
 %% Caso especial #2 tres cuerpos 
 % m0 = 4.0; m1 = 4.0; m2 = 5.0;
@@ -53,15 +53,15 @@ G = 1;       % Constante gravitacional universal unitaria
 % vx2 = -(1/2)*pi;  vy2 = -(1/2)*pi;      x2 = 0.0;  y2 = sqrt(3)/2;
 
 %% Solucion #1 tres cuerpos
- m0 = 4.0; m1 = 4.0; m2 = 4.0;
+% m0 = 4.0; m1 = 4.0; m2 = 4.0;
 % Si la masa intermedia m2 disminuye las orbitas se vuelven mas amplias,
 % mientras que si la masa aumenta, las orbitas se vuelven mas cerradas y 
 % alargadas, y a mayor tiempo vemos el desplazamiento debido al movimiento
 % de la masa intermedia
 
-vx0 = (1/2)*pi;  vy0 = (1/2)*pi;       x0 = -1.0; y0 = 0.0;
-vx1 = -(1/2)*pi; vy1 = -(1/2)*pi;      x1 = 1.0;  y1 = 0.0;
-vx2 = 0.0;       vy2 = 0.0;            x2 = 0.0;  y2 = 0.0;
+%vx0 = (1/2)*pi;  vy0 = (1/2)*pi;       x0 = -1.0; y0 = 0.0;
+%vx1 = -(1/2)*pi; vy1 = -(1/2)*pi;      x1 = 1.0;  y1 = 0.0;
+%vx2 = 0.0;       vy2 = 0.0;            x2 = 0.0;  y2 = 0.0;
 
 %% Solucion #2 tres cuerpos
 % m0 = 4.0; m1 = 4.0; m2 = 4.0;
